@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-container{
+   justify-content: center;
+   display: grid;
+   grid-template-columns: repeat(4, 200px);
+   direction: rtl;
+    
+}
+.letter{
+    width: 200px;
+    height:200px;
+    border: 1px solid black;
+    background-color: rgba(10, 199, 152, 0.527);
+}
